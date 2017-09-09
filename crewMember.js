@@ -11,6 +11,7 @@ class CrewMember {
       this.currentShip.warpDrive = 'engaged!';
     }
   }
+  
   setsInvisibility() {
     if (this.position === "Defender" && this.currentShip !== "Looking for a Rig"){
       this.currentShip.cloaked = true;
