@@ -1,11 +1,3 @@
-class CrewMember {
-constructor(position) {
-  this.position = position;
-  this.currentShip = 'None';
-  }
-  this.assignment = 'none'
-    return "Looking for a Rig";
-}
 
 class Spaceship {
 constructor(name, crew, phasers, shields) {
