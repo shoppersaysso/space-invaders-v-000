@@ -6,5 +6,9 @@ constructor(name, email) {
 
 class CrewMember {
 constructor(name, crew, numberOfPhasers, layerOfShields) {
-  this.position = position;
+  this.name = name;
+  this.crew = crew;
+  this.numberOfPhasers = numberOfPhasers;
+  this.layerOfShields = layerOfShields;
+
 }
