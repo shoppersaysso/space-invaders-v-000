@@ -1,8 +1,10 @@
 class CrewMember {
-  constructor(name, position)
+  constructor(name, position) {
   this.name = name;
   this.position = position;
+  }
 }
+
 class Spaceship {
   constructor(name, crew, phasers, shields) {
     this.name = name;
