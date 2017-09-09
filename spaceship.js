@@ -3,7 +3,9 @@ constructor(position) {
   this.position = position;
   this.currentShip = 'None';
   }
-
+  // if (this.assignment = 'none') {
+  //   return "Looking for a Rig";
+  // }
 }
 
 class Spaceship {
