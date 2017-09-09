@@ -1,11 +1,9 @@
 class CrewMember {
 constructor(position) {
   this.position = position;
-  this.ship = 'None';
+  this.currentShip = 'None';
   }
-  function currentShip() {
-    return this.ship
-  }
+
 }
 
 class Spaceship {
