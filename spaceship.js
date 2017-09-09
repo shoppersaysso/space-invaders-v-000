@@ -5,7 +5,6 @@ constructor(position) {
   }
   this.assignment = 'none'
     return "Looking for a Rig";
-  }
 }
 
 class Spaceship {
