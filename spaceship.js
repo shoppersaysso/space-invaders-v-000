@@ -1,7 +1,10 @@
 class CrewMember {
 constructor(position) {
   this.position = position;
+  this.assignment = 'none';
   }
+
+  if
 }
 
 class Spaceship {
