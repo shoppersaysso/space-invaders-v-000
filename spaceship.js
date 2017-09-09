@@ -28,4 +28,3 @@ class CrewMember {
   this.position = position;
   }
 }
-
