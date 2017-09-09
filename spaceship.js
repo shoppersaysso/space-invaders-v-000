@@ -1,7 +1,7 @@
 class CrewMember {
 constructor(position) {
   this.position = position;
-  this.assignment = 'none';
+  this.ship = 'None';
   }
 
   if (this.assignment = 'none') {
