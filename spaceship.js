@@ -1,4 +1,3 @@
-
 class Spaceship {
   constructor(name, crew, phasers, shields) {
     this.name = name;
@@ -7,20 +6,20 @@ class Spaceship {
     this.shields = shields;
     this.cloaked = false;
     this.warpDrive = 'disengaged';
-    var dock;
+
     if (crew.length === 0) {
-      dock = true;
+      this.docked = true;
     } else {
-      dock = false;
+      this.docked = false;
     }
-    this.docked = dock;
     this.phasersCharge = 'uncharged';
     this.notifyCrew();
   }
-  notifyCrew() {
-    this.crew.forEach(crewMember => {
-      crewMember.currentShip = this;
-    });
-  }
 
+notifyCrew(){
+  this.crew.forEach(CrewMember => {
+    CrewMember.currentShip = this;
+    })
+  }
 }
+
