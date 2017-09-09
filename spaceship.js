@@ -2,10 +2,6 @@ class CrewMember {
 constructor(position) {
   this.position = position;
   }
-
-  sayHello() {
-    console.log("Hello, my name is "+ this.name);
-  }
 }
 
 class Spaceship {
