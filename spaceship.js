@@ -9,7 +9,7 @@ constructor(position) {
 }
 
 class Spaceship {
-constructor(name, crew, numberOfPhasers, layerOfShields) {
+constructor(name, crew, phasers, shields) {
   this.name = name;
   this.crew = crew;
   this.numberOfPhasers = numberOfPhasers;
