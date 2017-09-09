@@ -21,7 +21,6 @@ constructor(name, crew, phasers, shields) {
   this.phasersCharge = 'uncharged';
   this.notifyCrew();
   }
-}
 
 notifyCrew(){
   this.crew.forEach(crewMember => {
