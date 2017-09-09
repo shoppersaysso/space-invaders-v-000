@@ -15,6 +15,12 @@ constructor(name, crew, phasers, shields) {
   this.phasers = phasers;
   this.shields = shields;
   this.cloaked = false;
-   this.warpDrive = 'disengaged';
+  this.warpDrive = 'disengaged';
+  if (crew.length === 0) {
+    this.docked = true;
+  }else{
+    this.docked = false;
   }
+  this.phasersCharge = 'uncharged';
+  this.notifyCrew();
 }
