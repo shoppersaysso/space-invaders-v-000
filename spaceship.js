@@ -12,7 +12,7 @@ class Spaceship {
 constructor(name, crew, phasers, shields) {
   this.name = name;
   this.crew = crew;
-  this.numberOfPhasers = numberOfPhasers;
-  this.layerOfShields = layerOfShields;
+  this.phasers = phasers;
+  this.shields = shields;
   }
 }
