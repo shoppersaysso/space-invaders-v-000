@@ -5,6 +5,6 @@ constructor(name, email) {
 }
 
 class CrewMember {
-constructor(position) {
+constructor(name, crew, numberOfPhasers, layerOfShields) {
   this.position = position;
 }
