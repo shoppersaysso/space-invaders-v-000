@@ -1,11 +1,14 @@
-class Spaceship {
-constructor(name, email) {
-  this.name = name;
-  this.email = email;
+class CrewMember {
+constructor(position) {
+  this.position = position;
+  }
+
+  sayHello() {
+    console.log("Hello, my name is "+ this.name);
   }
 }
 
-class CrewMember {
+class Spaceship {
 constructor(name, crew, numberOfPhasers, layerOfShields) {
   this.name = name;
   this.crew = crew;
