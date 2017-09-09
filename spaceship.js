@@ -26,6 +26,6 @@ constructor(name, crew, phasers, shields) {
 notifyCrew(){
   this.crew.forEach(crewMember => {
     crewMember.currentShip = this;
-  });
+    });
   }
 }
