@@ -18,8 +18,8 @@ class Spaceship {
   }
 
 notifyCrew(){
-  this.crew.forEach(crewMember => {
-    crewMember.currentShip = this;
+  this.crew.forEach(CrewMember => {
+    CrewMember.currentShip = this;
     });
   }
 }
